@@ -37,6 +37,10 @@
           extend: {
             colors: {
               clifford: "#da373d",
+              "raisin-black": "#212121",
+              "outer-space": "#494949",
+              nickel: "#737373",
+              inchworm: "#ABEF5F",
             },
           },
         },
@@ -51,6 +55,64 @@
     </style>
   </head>
   <body class="font-manrope">
-    <h1>Hello World!</h1>
+    <!-- Header Section -->
+    <header>
+      <!-- Navbar -->
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div
+              tabindex="0"
+              role="button"
+              class="btn btn-ghost lg:hidden"
+            ></div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            >
+              <li>
+                <a class="text-outer-space text-base font-extrabold">Home</a>
+              </li>
+              <li><a class="nickel text-base font-normal">Services</a></li>
+              <li><a class="nickel text-base font-normal">Portfolio</a></li>
+              <li><a class="nickel text-base font-normal">Blogs</a></li>
+              <li><a class="nickel text-base font-normal">Contact Us</a></li>
+            </ul>
+          </div>
+          <!-- Rounded Icon with Arrow -->
+          <div class="bg-inchworm w-8 h-8 mr-2 rounded-full -rotate-45">
+            <i class="fa-solid fa-arrow-right p-2"></i>
+          </div>
+          <h1 class="text-raisin-black text-3xl font-extrabold">Rinterio</h1>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li>
+              <a class="text-outer-space text-base font-extrabold">Home</a>
+            </li>
+            <li><a class="nickel text-base font-normal">Services</a></li>
+            <li><a class="nickel text-base font-normal">Portfolio</a></li>
+            <li><a class="nickel text-base font-normal">Blogs</a></li>
+            <li><a class="nickel text-base font-normal">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <button
+            class="btn w-52 h-14 bg-inchworm rounded-3xl text-[#1C1C1C] text-xl font-extrabold"
+          >
+            Book Now
+            <div class="bg-[#1C1C1C] w-8 h-8 ml-2 rounded-full -rotate-45">
+              <i class="fa-solid fa-arrow-right p-2 text-white"></i>
+            </div>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Section -->
+    <main></main>
+
+    <!-- Footer Section -->
+    <footer></footer>
   </body>
 </html>
